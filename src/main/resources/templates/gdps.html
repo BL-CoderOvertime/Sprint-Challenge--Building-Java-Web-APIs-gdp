@@ -11,8 +11,8 @@
         <th>GDP</th>
     </tr>
     <tr th:each="GDP : ${gdpList}">
-        <td th:text="${gdp.name}">Name</td>
-        <td th:text="${gdp.countryGdp}">GDP</td>
+        <td th:text="${GDP.name}">Name</td>
+        <td th:text="${GDP.countryGdp}">GDP</td>
     </tr>
 </table>
 </body>
